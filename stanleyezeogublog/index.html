@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanley's Nwa Nza</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    
+</head>
+<body>
+    <section>
+        <nav id="nav-section">
+            <h1 class="title nav-title">Stanley's Nwa Nza</h1>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home" class="title">Home</a></li>
+                    <li><a href="#blog" class="title">Akuko Ifo</a></li>
+                    <li><a href="#contact" class="title">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <nav id="hamburger-nav">
+        <div class="title ham-title"><h1>Stanley's Nwa Nza</h1></div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#akuko-ifo" onclick="toggleMenu()">Akuko Ifo</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="home" class="home-page-container">
+        <div class="home-image-container">
+            <div>
+            <img src="./assets/Stanley's Nwanza.jpeg" alt="home-page-image-NwaNza" class="NwaNza-pic">
+            </div>
+        </div>
+        <div class="home-page-text">
+            <h1 class="home-page-text-heading">Chọ Chọ Chọ</h1>
+            <p>
+            So Google renamed Bard, its AI model, to become Gemini. I was intrigued that Gemini could generate images for free. And so I fancied using Gemini
+            over Chat GPT for personal stuff. It cannot generate human images because of a fault that made it unable to generate images of white people.
+            But it could generate images of other things, like this Nwanza.
+            </p>
+            <p>The prompt that generated this beautiful image did not have 'generate the image of a bird'
+            in it. I had wanted a picture that portrayed variation in maths, and Gemini decided to give me a bird with varying colours amongst other suggestions.
+            So I thought, 'Why not design and build a website inspired by the Nwanza - the bird in the Igbo stories.'
+            </p>
+            <p>So here we go! Welcome to Stanley's Nwanza!</p>
+        </div>
+    </section>
+
+    <section id="blog">
+        <!--heading-->
+        <div class="blog-heading">
+            <h2>Akuko Ifo</h2>
+            <h3>My Stories</h3>
+
+            <!--container-->
+            <div class="blog-box-container">
+                <!--box1-->
+                <div class="blog-box">
+                    <!--image-->
+                    <div class="blog-box-img">
+                        <img src="./assets/going-home-adedayo.jpg" alt="Going Home: Adedayo image">
+                    </div>
+                    <!--text-->
+                    <div class="blog-box-text">
+                        <strong>Going Home: Adedayo</strong>
+                        <a href="./page2-Going Home Adedayo.html">The Work after Work</a>
+                        <p>Adedayo shut down his computer. 
+                            He could not stop the smile that lined his face. 
+                            He was happy to be going home early and was also happy to have met his deliverables 
+                            which had seemed undeliverable earlier in the morning.</p>
+                    </div>
+                    <div class="blog-date"><span><strong> 14th October, 2023</strong></span></div>
+                </div>
+
+                <!--box2-->
+                <div class="blog-box">
+                    <!--image-->
+                    <div class="blog-box-img">
+                        <img src="./assets/Suicide note.webp" alt="suicide note">
+                    </div>
+                    <!--text-->
+                    <div class="blog-box-text">
+                        <strong>Suicide Note</strong>
+                        <a href="./page4-Suicide Note.html">Why I Am Taking My Life</a>
+                        <p>Dear Friends, <br>
+
+                            When one takes his life without leaving a note, he leaves his loved ones, haters, and gist lovers wondering why he ended things. 
+                            He leaves them speculating what may have gone wrong, and so they take up for themselves self-assigned missions, compulsory missions to jump to the most plausible conclusion. 
+                            I would not like to leave you in the dark when I go to see the light on the other side of reality. 
+                            I want you to share in my light, or in the darkness that drives me into this light. 
+                            So here is my suicide note.</p>
+                    </div>
+                    <div class="blog-date"><span><strong> 14th October, 2023</strong></span></div>
+                </div>
+                <!--box3-->
+                <div class="blog-box">
+                    <!--image-->
+                    <div class="blog-box-img">
+                        <img src="./assets/Mass on Independence Day.webp" alt="Mass on Independence">
+                    </div>
+                    <!--text-->
+                    <div class="blog-box-text">
+                        <strong>Mass on Independence</strong>
+                        <a href="page3-Mass on Independence.html">For hope, and for Nkem</a>
+                        <p>I did not feel independent or happy this morning. Yet I struggled to suppress hope which, 
+                            like a joyful friend, tickled my sad mind in a bid to make me smile. 
+                            It spoke of joy which came in the morning, but I would have none of that. 
+                            Last Independence Day, I had posted: ‘Evening came, and morning came: a new dawn.’ 
+                            Although that dawn was new, it came with the old reoccurrence of Nigerian tragedies.</p>
+                    </div>
+                    <div class="blog-date"><span><strong> 14th October, 2023</strong></span></div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="contact-text">Get In Touch, Gwa M Okwu</h2>
+        <div class="contact-list-container">
+            <div class="email-medium-container">
+                <img src="./assets/email-icon.png" alt="email-icon" class="img-size">
+                <p><a href="mailto:ezeoguj2m@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-text">ezeoguj2m@gmail.com</a></p>
+            </div>
+            <div class="email-medium-container">
+                <img src="./assets/medium-icon.png" alt="medium-icon" class="img-size">
+                <p><a href="https://stanleyezeogu.medium.com/" target="_blank" rel="noopener noreferrer" class="contact-text">See Me On Medium</a></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>   
+</body>
+
+</html>
